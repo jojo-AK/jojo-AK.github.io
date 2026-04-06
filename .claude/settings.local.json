@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir \"c:\\\\Users\\\\JOSEPH\\\\Desktop\\\\portfolio_2\\\\public\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\JOSEPH\\\\Desktop\\\\portfolio_2\\\\public\")",
+      "Bash(cmd /c \"dir C:\\\\Users\\\\JOSEPH\\\\Desktop\\\\portfolio_2\")"
+    ]
+  }
+}

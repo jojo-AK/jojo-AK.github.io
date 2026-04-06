@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useLang } from "@/contexts/LangContext";
 import { personal } from "@/data/personal";
 import { AnimatedSection } from "@/components/AnimatedSection";
@@ -25,14 +26,14 @@ export function About() {
           {/* Photo placeholder */}
           <AnimatedSection direction="left">
             <div className="relative mx-auto w-72 h-72 md:w-80 md:h-80">
-              <div className="w-full h-full rounded-2xl bg-gradient-to-br from-purple-100 to-blue-100 dark:from-slate-800 dark:to-slate-700 border-2 border-dashed border-purple-300 dark:border-purple-700 flex flex-col items-center justify-center gap-3 text-center p-6">
-                <div className="text-5xl">📷</div>
-                <p className="text-slate-500 dark:text-slate-400 text-sm font-medium">
-                  {t.about.photoPlaceholder}
-                </p>
-                <p className="text-xs text-slate-400 dark:text-slate-600">
-                  public/photo.jpg
-                </p>
+              <div className="w-full h-full rounded-2xl overflow-hidden border-4 border-purple-200 dark:border-purple-800 shadow-xl">
+                <Image
+                  src="/WhatsApp Image 2026-04-06 at 23.14.00.jpeg"
+                  alt="Photo de profil"
+                  fill
+                  className="object-cover"
+                  priority
+                />
               </div>
               {/* Décoration */}
               <div className="absolute -bottom-4 -right-4 w-full h-full rounded-2xl border-2 border-purple-200 dark:border-purple-900 -z-10" />
