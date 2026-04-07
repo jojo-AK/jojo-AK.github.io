@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { motion } from "framer-motion";
 import { useLang } from "@/contexts/LangContext";
 import { personal } from "@/data/personal";
@@ -38,9 +39,16 @@ export function Hero() {
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5, delay: 0.1 }}
-          className="w-24 h-24 rounded-full bg-gradient-to-br from-purple-500 to-blue-500 flex items-center justify-center text-white text-3xl font-bold mx-auto mb-6 shadow-lg shadow-purple-200 dark:shadow-purple-900/30"
+          className="w-24 h-24 rounded-full mx-auto mb-6 shadow-lg shadow-purple-200 dark:shadow-purple-900/30 overflow-hidden border-4 border-purple-200 dark:border-purple-800"
         >
-          JA
+          <Image
+            src="/WhatsApp Image 2026-04-06 at 23.14.00.jpeg"
+            alt="AKPATCHA Joseph"
+            width={96}
+            height={96}
+            className="object-cover w-full h-full"
+            priority
+          />
         </motion.div>
 
         {/* Titre */}
