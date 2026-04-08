@@ -53,10 +53,10 @@ export function About() {
               {/* Infos rapides */}
               <div className="grid grid-cols-2 gap-4 pt-4">
                 {[
-                  { icon: "📍", label: "Localisation", value: "Afrique" },
-                  { icon: "🎓", label: "Niveau", value: "Bac+5 (en cours)" },
+                  { icon: "📍", label: "Localisation", value: "Togo" },
+                  { icon: "🎓", label: "Formation", value: "Licence IA/BigData" },
                   { icon: "💼", label: "Statut", value: "Cherche stage" },
-                  { icon: "🌐", label: "Langues", value: "FR / EN" },
+                  { icon: "🌐", label: "Langues", value: "FR / EN (B1)" },
                 ].map((item) => (
                   <div
                     key={item.label}

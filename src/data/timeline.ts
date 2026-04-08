@@ -11,39 +11,15 @@ export interface TimelineItem {
 
 export const timeline: TimelineItem[] = [
   {
-    year: "2024 — présent",
-    titleFr: "Cycle Ingénieur / Master",
-    titleEn: "Engineering Cycle / Master's",
-    placeFr: "À compléter — Université / École",
-    placeEn: "To fill in — University / School",
+    year: "2022 — 2025",
+    titleFr: "Licence IA / Big Data",
+    titleEn: "Bachelor's in AI / Big Data",
+    placeFr: "Collège de Paris Supérieur",
+    placeEn: "Collège de Paris Supérieur",
     descriptionFr:
-      "Spécialisation en développement logiciel et systèmes d'information.",
+      "Formation en intelligence artificielle, Big Data, développement web full-stack et analyse de données.",
     descriptionEn:
-      "Specialization in software development and information systems.",
+      "Training in artificial intelligence, Big Data, full-stack web development and data analysis.",
     type: "education",
-  },
-  {
-    year: "2021 — 2024",
-    titleFr: "Licence Informatique",
-    titleEn: "Bachelor's in Computer Science",
-    placeFr: "À compléter — Université / École",
-    placeEn: "To fill in — University / School",
-    descriptionFr:
-      "Formation en algorithmique, développement web, bases de données et réseaux.",
-    descriptionEn:
-      "Training in algorithms, web development, databases and networking.",
-    type: "education",
-  },
-  {
-    year: "2023",
-    titleFr: "Stage Développeur Web",
-    titleEn: "Web Developer Internship",
-    placeFr: "À compléter — Entreprise",
-    placeEn: "To fill in — Company",
-    descriptionFr:
-      "Développement de fonctionnalités frontend et intégration d'API REST.",
-    descriptionEn:
-      "Development of frontend features and REST API integration.",
-    type: "experience",
   },
 ];

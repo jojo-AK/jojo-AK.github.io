@@ -7,7 +7,11 @@ import { AnimatedSection } from "@/components/AnimatedSection";
 
 const projectIcons: Record<string, string> = {
   "salon-coiffure": "✂️",
-  "jo-finance": "💰",
+  "jo-finance": "📊",
+  "parc-informatique": "🖥️",
+  "portfolio": "🧑‍💻",
+  "github-pages": "🌐",
+  "projet-git": "🔀",
 };
 
 export function Projects() {

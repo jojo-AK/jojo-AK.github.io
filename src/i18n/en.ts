@@ -19,9 +19,9 @@ export const en: Translations = {
     sectionLabel: "Who am I?",
     title: "About me",
     bio1:
-      "I'm AKPATCHA Joseph, a passionate Full Stack Developer focused on building modern and performant web applications. I enjoy crafting complete solutions, from UI design all the way down to the database.",
+      "I'm AKPATCHA Joseph, web developer and data analyst. I enjoy building applications that turn raw data into interactive dashboards and actionable KPIs.",
     bio2:
-      "Currently finishing my engineering cycle, I'm looking for an end-of-studies internship to apply my skills within an ambitious team and tackle new technical challenges.",
+      "Studying AI/BigData, I cover the full chain: collection, analysis and web visualization. I'm open to any internship opportunity to put my skills into practice.",
     downloadCV: "Download my CV",
     photoAlt: "Photo of Joseph AKPATCHA",
     photoPlaceholder: "Add your photo here",
@@ -36,7 +36,7 @@ export const en: Translations = {
     sectionLabel: "My work",
     title: "Recent Projects",
     description:
-      "A selection of my projects built with passion — from concept to deployment.",
+      "A selection of my projects — from showcase sites to data dashboards, from concept to deployment.",
     github: "GitHub",
     demo: "Live demo",
     viewAll: "See all my projects on GitHub",
@@ -46,7 +46,7 @@ export const en: Translations = {
     sectionLabel: "What I master",
     title: "Tech Stack",
     description:
-      "The technologies I use to build robust and performant applications.",
+      "Full-stack web development and data analysis — the two sides of my profile.",
   },
   contact: {
     sectionLabel: "Let's work together",
@@ -55,6 +55,6 @@ export const en: Translations = {
       "Available for an internship. I'm open to any interesting opportunity — feel free to reach out!",
     sendEmail: "Send me an email",
     github: "GitHub",
-    copyright: "Full Stack Developer",
+    copyright: "Web Developer | Data Analyst",
   },
 };
