@@ -91,7 +91,7 @@ export function About() {
               </div>
 
               {/* Bouton CV */}
-              <
+              <a
                 href={personal.cvUrl}
                 download
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-purple-200 dark:hover:shadow-purple-900/30 mt-2"
