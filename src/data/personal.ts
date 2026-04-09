@@ -13,4 +13,10 @@ export const personal = {
     { number: "3 ans", labelFr: "De formation", labelEn: "Of training" },
     { number: "100%", labelFr: "Motivé", labelEn: "Motivated" },
   ],
+  hobbies: [
+    { icon: "🏀", labelFr: "Basketball", labelEn: "Basketball" },
+    { icon: "🏊", labelFr: "Natation", labelEn: "Swimming" },
+    { icon: "♟️", labelFr: "Échecs", labelEn: "Chess" },
+    { icon: "🎮", labelFr: "Jeux vidéos", labelEn: "Video games" },
+  ],
 };

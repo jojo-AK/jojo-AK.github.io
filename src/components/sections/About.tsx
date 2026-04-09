@@ -73,8 +73,25 @@ export function About() {
                 ))}
               </div>
 
+              {/* Centres d'intérêt */}
+              <div className="pt-2">
+                <p className="text-xs text-slate-500 dark:text-slate-500 uppercase tracking-widest font-semibold mb-3">
+                  Centres d'intérêt
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  {personal.hobbies.map((hobby) => (
+                    <span
+                      key={hobby.labelFr}
+                      className="inline-flex items-center gap-1.5 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-slate-700 dark:text-slate-300 text-sm px-3 py-1.5 rounded-full"
+                    >
+                      {hobby.icon} {hobby.labelFr}
+                    </span>
+                  ))}
+                </div>
+              </div>
+
               {/* Bouton CV */}
-              <a
+              <
                 href={personal.cvUrl}
                 download
                 className="inline-flex items-center gap-2 bg-gradient-to-r from-purple-600 to-blue-500 text-white px-6 py-3 rounded-xl font-semibold hover:opacity-90 transition-all hover:-translate-y-0.5 hover:shadow-lg hover:shadow-purple-200 dark:hover:shadow-purple-900/30 mt-2"
